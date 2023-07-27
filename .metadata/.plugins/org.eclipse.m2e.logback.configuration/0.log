@@ -1,1 +1,86 @@
 2023-07-27 13:02:48,113 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-27 13:13:19,514 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dailycodebuffer:config-server:0.0.1-SNAPSHOT @ C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\config-server\pom.xml.
+2023-07-27 13:13:21,437 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dailycodebuffer:employee-service:0.0.1-SNAPSHOT @ C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\employee-service\pom.xml.
+2023-07-27 13:13:22,469 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dailycodebuffer:service-registry:0.0.1-SNAPSHOT @ C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\service-registry\pom.xml.
+2023-07-27 13:13:23,111 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dailycodebuffer:api-gateway:0.0.1-SNAPSHOT @ C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\api-gateway\pom.xml.
+2023-07-27 13:13:23,578 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dailycodebuffer:department-service:0.0.1-SNAPSHOT @ C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\department-service\pom.xml.
+2023-07-27 13:13:27,606 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-server/src/main/java
+2023-07-27 13:13:27,606 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-server/src/main/resources
+2023-07-27 13:13:27,617 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-server/src/main/resources
+2023-07-27 13:13:27,628 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-server/src/test/java
+2023-07-27 13:13:28,943 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /service-registry/src/main/java
+2023-07-27 13:13:28,943 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /service-registry/src/main/resources
+2023-07-27 13:13:28,946 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /service-registry/src/main/resources
+2023-07-27 13:13:28,949 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /service-registry/src/test/java
+2023-07-27 13:13:29,597 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /employee-service/src/main/java
+2023-07-27 13:13:29,598 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /employee-service/src/main/resources
+2023-07-27 13:13:29,602 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /employee-service/src/main/resources
+2023-07-27 13:13:29,607 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /employee-service/src/test/java
+2023-07-27 13:13:30,228 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2023-07-27 13:13:30,228 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2023-07-27 13:13:30,233 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2023-07-27 13:13:30,250 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2023-07-27 13:13:31,051 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /department-service/src/main/java
+2023-07-27 13:13:31,051 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /department-service/src/main/resources
+2023-07-27 13:13:31,057 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /department-service/src/main/resources
+2023-07-27 13:13:31,062 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /department-service/src/test/java
+2023-07-27 13:13:31,751 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 5 project(s) in 16 sec
+2023-07-27 13:13:33,056 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-07-27 13:13:33,078 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:13:33,086 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\api-gateway\src\test\resources
+2023-07-27 13:13:33,498 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-07-27 13:13:33,500 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources
+2023-07-27 13:13:33,509 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\config-server\src\test\resources
+2023-07-27 13:13:33,825 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-07-27 13:13:33,827 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:13:33,832 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\department-service\src\test\resources
+2023-07-27 13:13:34,064 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-07-27 13:13:34,066 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:13:34,071 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\employee-service\src\test\resources
+2023-07-27 13:13:34,321 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-07-27 13:13:34,324 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:13:34,328 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\service-registry\src\test\resources
+2023-07-27 13:17:22,909 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:17:22,910 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-07-27 13:17:22,916 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\config-server\src\test\resources
+2023-07-27 13:18:26,834 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:18:26,834 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:18:26,838 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\api-gateway\src\test\resources
+2023-07-27 13:18:26,858 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:18:26,858 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:18:26,864 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\config-server\src\test\resources
+2023-07-27 13:18:26,889 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:18:26,889 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:18:26,894 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\department-service\src\test\resources
+2023-07-27 13:18:26,923 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:18:26,924 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:18:26,928 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\employee-service\src\test\resources
+2023-07-27 13:18:26,950 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:18:26,951 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:18:26,955 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\service-registry\src\test\resources
+2023-07-27 13:24:15,759 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-07-27 13:24:16,585 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dailycodebuffer:config-server:0.0.1-SNAPSHOT @ C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\config-server\pom.xml.
+2023-07-27 13:24:16,912 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dailycodebuffer:employee-service:0.0.1-SNAPSHOT @ C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\employee-service\pom.xml.
+2023-07-27 13:24:17,122 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dailycodebuffer:service-registry:0.0.1-SNAPSHOT @ C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\service-registry\pom.xml.
+2023-07-27 13:24:17,298 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dailycodebuffer:department-service:0.0.1-SNAPSHOT @ C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\department-service\pom.xml.
+2023-07-27 13:24:17,445 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dailycodebuffer:api-gateway:0.0.1-SNAPSHOT @ C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\api-gateway\pom.xml.
+2023-07-27 13:24:19,210 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /department-service/src/main/java
+2023-07-27 13:24:19,211 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /department-service/src/main/resources
+2023-07-27 13:24:19,211 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /department-service/src/main/resources
+2023-07-27 13:24:19,211 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /department-service/src/test/java
+2023-07-27 13:24:19,637 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2023-07-27 13:24:19,786 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:24:19,787 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:24:19,791 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\api-gateway\src\test\resources
+2023-07-27 13:24:19,808 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:24:19,808 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:24:19,811 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\config-server\src\test\resources
+2023-07-27 13:24:19,981 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-07-27 13:24:19,997 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:24:20,000 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\department-service\src\test\resources
+2023-07-27 13:24:20,222 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:24:20,222 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:24:20,226 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\employee-service\src\test\resources
+2023-07-27 13:24:20,255 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:24:20,255 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:24:20,260 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\service-registry\src\test\resources
