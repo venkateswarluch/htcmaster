@@ -84,3 +84,6 @@
 2023-07-27 13:24:20,255 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-07-27 13:24:20,255 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-07-27 13:24:20,260 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\service-registry\src\test\resources
+2023-07-27 13:35:44,559 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-07-27 13:35:44,642 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-27 13:35:44,647 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\soft\htc demos\htcwork\htcmaster\springboot-3-microservices\employee-service\src\test\resources
